@@ -9,10 +9,6 @@ import android.view.WindowManager;
 
 import java.io.File;
 
-/**
- * Created by ICE on 2017/4/27.
- */
-
 public class BaseUtils {
     public static final int BUFFER_SIZE = 32 * 1024; // 32 Kb
     /**

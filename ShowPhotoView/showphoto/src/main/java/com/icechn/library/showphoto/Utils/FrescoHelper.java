@@ -18,9 +18,6 @@ import java.io.File;
 
 import okhttp3.OkHttpClient;
 
-/**
- * Created by ICE on 2017/3/4.
- */
 
 public class FrescoHelper {
     private static final String IMAGE_PIPELINE_CACHE_DIR = "ImagepipelineDiskCache";

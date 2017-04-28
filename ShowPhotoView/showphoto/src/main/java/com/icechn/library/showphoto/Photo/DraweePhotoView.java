@@ -21,10 +21,6 @@ import com.icechn.library.showphoto.ZoomDrawee.OnViewTapListener;
 import com.icechn.library.showphoto.ZoomDrawee.ZoomDraweeView;
 
 
-/**
- * Created by ICE on 2016/12/23.
- */
-
 public class DraweePhotoView extends PhotoBase<ZoomDraweeView> {
 
     public DraweePhotoView(Context context) {

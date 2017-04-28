@@ -35,9 +35,6 @@ import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-/**
- * Created by ICE on 2016/12/24.
- */
 public abstract class PhotoBase<T extends View> extends FrameLayout implements OnLongClickListener {
     protected static final int IMAGE_LOADER_TIME_OUT = 15000;
     protected RelativeLayout mCoverageLayer = null;

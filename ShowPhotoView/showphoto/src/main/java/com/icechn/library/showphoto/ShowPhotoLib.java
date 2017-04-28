@@ -8,9 +8,6 @@ import android.util.Log;
 import com.icechn.library.showphoto.Utils.BaseUtils;
 import com.icechn.library.showphoto.Utils.FrescoHelper;
 
-/**
- * Created by ICE on 2017/4/27.
- */
 
 public class ShowPhotoLib {
     public static void init(@NonNull ShowPhotoLibParam param) {

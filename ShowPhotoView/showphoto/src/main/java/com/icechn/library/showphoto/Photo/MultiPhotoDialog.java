@@ -20,10 +20,6 @@ import com.icechn.library.showphoto.Utils.BaseUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ICE on 2016/12/23.
- */
-
 public class MultiPhotoDialog extends Dialog {
     protected FrameLayout mMainLayout = null;
     protected TextView mIndexView = null;

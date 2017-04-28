@@ -12,9 +12,6 @@ import android.graphics.drawable.Drawable;
 
 import com.icechn.library.showphoto.Utils.BaseUtils;
 
-/**
- * Created by ICE on 2016/12/29.
- */
 
 public class PhotoLoadingProgress extends Drawable {
 

@@ -8,9 +8,6 @@ import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 
-/**
- * Created by ICE on 2016/12/23.
- */
 
 public class WebPhotoView extends PhotoBase<WebView> {
 

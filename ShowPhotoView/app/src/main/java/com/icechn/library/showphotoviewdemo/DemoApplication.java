@@ -5,9 +5,6 @@ import android.app.Application;
 import com.icechn.library.showphoto.ShowPhotoLib;
 import com.icechn.library.showphoto.ShowPhotoLib.ShowPhotoLibParam;
 
-/**
- * Created by ICE on 2017/2/28.
- */
 
 public class DemoApplication extends Application {
 

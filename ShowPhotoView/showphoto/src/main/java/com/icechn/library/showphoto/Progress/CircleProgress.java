@@ -13,7 +13,6 @@ import android.view.View;
 
 /**
  * 圆形进度：支持外环与内圆同时画进度
- * Created by ICE on 2016/12/28.
  */
 
 public class CircleProgress extends View {
