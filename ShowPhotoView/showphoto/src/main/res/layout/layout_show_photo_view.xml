@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/coverage_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A2000000" >
+
+        <com.icechn.library.showphoto.Progress.CircleProgress
+            android:id="@+id/circle_progress_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="32dip"
+        android:layout_marginLeft="20dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/img_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/img_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/save_imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/save_image"
+        android:background="@color/white"
+        android:visibility="gone" >
+    </ImageView>
+    <RelativeLayout
+        android:id="@+id/fail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A2000000"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/fail_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/image_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载失败，点击重试"
+            android:textColor="@color/white"
+            android:layout_below="@+id/fail_image"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</FrameLayout>
