@@ -1,8 +1,0 @@
-#! /usr/bin/env bash
-
-cd showphoto
-../gradlew.bat clean assembleRelease
-cd ..
-cp showphoto/build/output/aar/showphoto-release.aar app/libs/showphoto.aar
-chmod 777 app/libs/showphoto.aar
-
